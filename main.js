@@ -1,8 +1,6 @@
 let selectedFile;
 document.getElementById('buttonFileSelect').addEventListener("change", (event)=>{
         selectedFile = event.target.files[0]; 
-});
-document.getElementById('buttonFileUpdate').addEventListener("click", () => {
         if (selectedFile) {
                 let fileReader = new FileReader();
                 fileReader.readAsBinaryString(selectedFile);
@@ -10,4 +8,8 @@ document.getElementById('buttonFileUpdate').addEventListener("click", () => {
                         console.log(event.target.result);
                 }
         }
+});
+document.getElementById('buttonFileUpdate').addEventListener("click", () => {
+        
+        
 });
