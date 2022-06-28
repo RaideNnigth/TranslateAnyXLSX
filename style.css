@@ -167,14 +167,27 @@ body {
     padding-top: 50px;
     padding-bottom: 10px;
 }
+.pai{
+    width: auto;
+    background-color: #00fffb;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    justify-tracks: center;
+}
 
 /* From uiverse.io by @Vikikos */
 .grid2{
+    background-color: #7e03aa;
     display: grid;
-    background-color: #212121;
     grid-template-columns: 190px 190px;
     justify-content: center;
     justify-items: center;
+    width: fit-content;
+
 }
 /* From uiverse.io by @Vikikos */
 .cardAnd {
@@ -254,8 +267,7 @@ body {
     background-position: left;
     background-image: url("assets/shiro.png");
    }
-
-   #cardGus:hover div ~ #cardAnd {
-    transform: translateY(-30px);
-}
    
+   .grid2:hover .cardAnd div{
+    transform: translateY(-30px);
+   }
