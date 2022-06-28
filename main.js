@@ -1,6 +1,6 @@
 let selectedFile;
 document.getElementById('buttonFileSelect').addEventListener("change", (event)=>{
-        selectedFile = event.target.file[0]; 
+        selectedFile = event.target.files[0]; 
 });
 document.getElementById('buttonFileUpdate').addEventListener("click", () => {
         if (selectedFile) {

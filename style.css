@@ -3,15 +3,11 @@ body {
     font-family: 'Poppins';font-size: 22px;
 }
 .grid{
-    padding-top: 20%;
+    padding-top: 10%;
     display: grid;
-    grid-template-columns: 50%;
     background-color: #212121;
-    grid-gap: 10px;
-    align-items: center;
-    align-content: center;
-    text-align: center;
     justify-content: center;
+    justify-items: center;
 }
 
 #Tittle{
@@ -25,6 +21,7 @@ body {
     width: 400px;
     border-radius: 30px;
     background-color: white;
+    text-align-last: center;
 }
 #space{
     height: 10px;
@@ -38,10 +35,12 @@ body {
 #buttonFileSelect{
     color: black;
     width: 280px;
+
 }
 
 /* From uiverse.io by @kleenpulse */
 .btn {
+    margin-top: 10px;
     --border-color: linear-gradient(-45deg, #ffae00, #7e03aa, #00fffb);
     --border-width: .125em;
     --curve-size: .5em;
@@ -165,17 +164,17 @@ body {
 
 #colaborators{
     color: white;
-    padding-top: 10px;
+    padding-top: 50px;
     padding-bottom: 10px;
 }
 
 /* From uiverse.io by @Vikikos */
 .grid2{
-    padding: 10px;
     display: grid;
-    grid-template-columns: 30% 20%;
+    background-color: #212121;
+    grid-template-columns: 50% 50%;
     justify-content: center;
-    background-color: #3c1d1d;
+    justify-items: center;
 }
 /* From uiverse.io by @Vikikos */
 .cardAnd {
