@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Translate XML</title>
 </head>
 <body>
-    <div></div>
-    <h1></h1>
+    <div class="grid">
+        <div><h1 id="Tittle">TRANSLATE YOUR XML FILE</h1></div>
+        <div><h1>---</h1></div>
+        <div><h1 id="TextFile">Select your file</h1></div>
+        <div>
+            <form action="/action_page.php">
+                <input type="file" id="myFile" name="filename">
+                <input type="submit">
+            </form>
+        </div>
+        <div><button id="BtnSubmit" type="Submit">Submit</button> <button id="BtnDownload" type="submit">Download</button></div>
+    </div>
+    
 </body>
 </html>
